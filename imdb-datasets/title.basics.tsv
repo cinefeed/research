@@ -1,0 +1,130 @@
+tconst	titleType	primaryTitle	originalTitle	isAdult	startYear	endYear	runtimeMinutes	genres
+tt0000001	short	Carmencita	Carmencita	0	1894	\N	1	Documentary,Short
+tt0000002	short	Le clown et ses chiens	Le clown et ses chiens	0	1892	\N	5	Animation,Short
+tt0000003	short	Pauvre Pierrot	Pauvre Pierrot	0	1892	\N	4	Animation,Comedy,Romance
+tt0000004	short	Un bon bock	Un bon bock	0	1892	\N	\N	Animation,Short
+tt0000005	short	Blacksmith Scene	Blacksmith Scene	0	1893	\N	1	Short
+tt0000006	short	Chinese Opium Den	Chinese Opium Den	0	1894	\N	1	Short
+tt0000007	short	Corbett and Courtney Before the Kinetograph	Corbett and Courtney Before the Kinetograph	0	1894	\N	1	Short,Sport
+tt0000008	short	Edison Kinetoscopic Record of a Sneeze	Edison Kinetoscopic Record of a Sneeze	0	1894	\N	1	Documentary,Short
+tt0000009	movie	Miss Jerry	Miss Jerry	0	1894	\N	45	Romance
+tt0000010	short	Employees Leaving the Lumière Factory	La sortie de l'usine Lumière à Lyon	0	1895	\N	1	Documentary,Short
+tt0000011	short	Akrobatisches Potpourri	Akrobatisches Potpourri	0	1895	\N	1	Documentary,Short
+tt0000012	short	The Arrival of a Train	L'arrivée d'un train à La Ciotat	0	1896	\N	1	Documentary,Short
+tt0000013	short	The Photographical Congress Arrives in Lyon	Neuville-sur-Saône: Débarquement du congrès des photographes à Lyon	0	1895	\N	1	Documentary,Short
+tt0000014	short	Tables Turned on the Gardener	L'arroseur arrosé	0	1895	\N	1	Comedy,Short
+tt0000015	short	Autour d'une cabine	Autour d'une cabine	0	1894	\N	2	Animation,Short
+tt0000016	short	Barque sortant du port	Barque sortant du port	0	1895	\N	1	Documentary,Short
+tt0000017	short	Italienischer Bauerntanz	Italienischer Bauerntanz	0	1895	\N	1	Documentary,Short
+tt0000018	short	Das boxende Känguruh	Das boxende Känguruh	0	1895	\N	1	Short
+tt0000019	short	The Clown Barber	The Clown Barber	0	1898	\N	\N	Comedy,Short
+tt0000020	short	The Derby 1895	The Derby 1895	0	1895	\N	1	Documentary,Short,Sport
+tt0000022	short	Blacksmith Scene	Les forgerons	0	1895	\N	1	Documentary,Short
+tt0000023	short	The Sea	Baignade en mer	0	1895	\N	1	Documentary,Short
+tt0000024	short	Opening of the Kiel Canal	Opening of the Kiel Canal	0	1895	\N	\N	News,Short
+tt0000025	short	The Oxford and Cambridge University Boat Race	The Oxford and Cambridge University Boat Race	0	1895	\N	\N	News,Short,Sport
+tt0000026	short	The Messers. Lumière at Cards	Partie d'écarté	0	1896	\N	1	Documentary,Short
+tt0000027	short	Cordeliers' Square in Lyon	Place des Cordeliers à Lyon	0	1895	\N	1	Documentary,Short
+tt0000028	short	Fishing for Goldfish	La pêche aux poissons rouges	0	1895	\N	1	Documentary,Short
+tt0000029	short	Baby's Dinner	Repas de bébé	0	1895	\N	1	Documentary,Short
+tt0000030	short	Rough Sea at Dover	Rough Sea at Dover	0	1895	\N	1	Documentary,Short
+tt0000031	short	Jumping the Blanket	Le saut à la couverture	0	1895	\N	1	Documentary,Short
+tt0000032	short	Die Serpentintänzerin	Die Serpentintänzerin	0	1895	\N	1	Short
+tt0000033	short	Trick Riding	La voltige	0	1895	\N	1	Comedy,Documentary,Short
+tt0000034	short	Arrivée d'un train gare de Vincennes	Arrivée d'un train gare de Vincennes	0	1896	\N	1	Documentary,Short
+tt0000035	short	Watering the Flowers	L'arroseur	0	1896	\N	1	Comedy,Short
+tt0000036	short	Awakening of Rip	Awakening of Rip	0	1896	\N	0	Drama,Short
+tt0000037	short	Sea Bathing	Baignade en mer	0	1896	\N	1	Short
+tt0000038	short	The Ball Game	The Ball Game	0	1898	\N	\N	Documentary,Short,Sport
+tt0000039	short	Barnet Horse Fair	Barnet Horse Fair	0	1896	\N	\N	Short
+tt0000040	short	Barque sortant du port de Trouville	Barque sortant du port de Trouville	0	1896	\N	\N	Documentary,Short
+tt0000041	short	Bataille de neige	Bataille de neige	0	1897	\N	1	Documentary,Short
+tt0000042	short	Bateau-mouche sur la Seine	Bateau-mouche sur la Seine	0	1896	\N	\N	Documentary,Short
+tt0000043	short	Batteuse à vapeur	Batteuse à vapeur	0	1896	\N	\N	Documentary,Short
+tt0000044	short	Le bivouac	Le bivouac	0	1896	\N	1	Short
+tt0000045	short	Les blanchisseuses	Les blanchisseuses	0	1896	\N	\N	Short
+tt0000046	short	Bois de Boulogne	Bois de Boulogne	0	1896	\N	\N	Documentary,Short
+tt0000047	short	Boulevard des Italiens	Boulevard des Italiens	0	1896	\N	\N	Documentary,Short
+tt0000048	short	The Boxing Kangaroo	The Boxing Kangaroo	0	1896	\N	\N	Short
+tt0000049	short	Boxing Match; or, Glove Contest	Boxing Match; or, Glove Contest	0	1896	\N	\N	Short,Sport
+tt0000050	short	Bébé et fillettes	Bébé et fillettes	0	1896	\N	\N	Documentary,Short
+tt0000051	short	The Bohemian Encampment	Campement de bohémiens	0	1896	\N	\N	Documentary,Short
+tt0000052	short	Carga de rurales	Carga de rurales	0	1896	\N	1	Documentary,Short
+tt0000053	short	A Chegada do Comboio Inaugural à Estação Central do Porto	A Chegada do Comboio Inaugural à Estação Central do Porto	0	1897	\N	\N	Documentary,Short
+tt0000054	short	A Merry-Go-Round	Les chevaux de bois	0	1896	\N	\N	Short
+tt0000055	short	Le chiffonnier	Le chiffonnier	0	1896	\N	\N	Short
+tt0000056	short	Uma Corrida de Touros no Campo Pequeno	Uma Corrida de Touros no Campo Pequeno	0	1896	\N	\N	Short
+tt0000057	short	Cortège de tzar allant à Versailles	Cortège de tzar allant à Versailles	0	1896	\N	\N	Documentary,Short
+tt0000058	short	Cortège de tzar au Bois de Boulogne	Cortège de tzar au Bois de Boulogne	0	1896	\N	\N	Documentary,Short
+tt0000059	short	Coronation of a Village Maiden	Couronnement de la rosière	0	1896	\N	\N	Short
+tt0000060	short	Dancing Darkies	Dancing Darkies	0	1896	\N	\N	Documentary,Short
+tt0000061	short	Dancing Girls	Dancing Girls	0	1896	\N	\N	Short
+tt0000062	short	Danse serpentine	Danse serpentine	0	1896	\N	1	Short
+tt0000063	short	Dessinateur express	Dessinateur express	0	1896	\N	\N	Short
+tt0000064	short	Dessinateur: Chamberlain	Dessinateur: Chamberlain	0	1896	\N	\N	Short
+tt0000065	short	Dessinateur: Reine Victoria	Dessinateur: Reine Victoria	0	1896	\N	\N	Short
+tt0000066	short	Dessinateur: Von Bismark	Dessinateur: Von Bismark	0	1896	\N	\N	Short
+tt0000067	short	Conjurer Making Ten Hats in Sixty Seconds	Dix chapeaux en 60 secondes	0	1896	\N	\N	Fantasy,Short
+tt0000068	short	Unloading the Boat	Déchargement de bateaux	0	1896	\N	\N	Documentary,Short
+tt0000069	short	Post No Bills	Défense d'afficher	0	1896	\N	1	Short
+tt0000070	short	Démolition d'un mur	Démolition d'un mur	0	1896	\N	1	Documentary,Short
+tt0000071	short	Automobiles Starting a Race	Départ des automobiles	0	1896	\N	\N	Short,Sport
+tt0000072	short	Officers of French Army Leaving Service	Départ des officiers	0	1896	\N	\N	Short
+tt0000073	short	Effets de mer sur les rochers	Effets de mer sur les rochers	0	1896	\N	\N	Documentary,Short
+tt0000074	short	Enfants jouant sur la plage	Enfants jouant sur la plage	0	1896	\N	\N	Documentary,Short
+tt8595140	tvSeries	The Conners	The Conners	0	\N	\N	\N	Comedy
+tt8595142	tvEpisode	Kathy	Kathy	1	2003	\N	51	Adult
+tt8595144	tvEpisode	Episode #1.1	Episode #1.1	0	\N	\N	\N	Comedy
+tt8595146	tvEpisode	Episode #1.2	Episode #1.2	0	\N	\N	\N	Comedy
+tt8595148	tvEpisode	Episode #1.3	Episode #1.3	0	\N	\N	\N	Comedy
+tt8595150	tvEpisode	Episode #1.4	Episode #1.4	0	\N	\N	\N	Comedy
+tt8595152	tvEpisode	Episode #1.5	Episode #1.5	0	\N	\N	\N	Comedy
+tt8595154	tvEpisode	Episode #1.6	Episode #1.6	0	\N	\N	\N	Comedy
+tt8595156	tvEpisode	Episode #1.7	Episode #1.7	0	\N	\N	\N	Comedy
+tt8595158	tvEpisode	Episode #1.8	Episode #1.8	0	\N	\N	\N	Comedy
+tt8595160	tvEpisode	Episode #1.9	Episode #1.9	0	\N	\N	\N	Comedy
+tt8595162	tvEpisode	Episode #1.10	Episode #1.10	0	\N	\N	\N	Comedy
+tt8595164	short	A Treatise on Perspective	A Treatise on Perspective	0	2018	\N	\N	Comedy,Short
+tt8595166	tvEpisode	Karma	Karma	1	2003	\N	15	Adult
+tt8595170	short	Youth	Youth	0	2018	\N	\N	Drama,Short
+tt8595172	video	It's Okay That Obama Did It, But Not Trump!	It's Okay That Obama Did It, But Not Trump!	0	2018	\N	11	News,Short
+tt8595176	tvEpisode	Koyomi Flower	Koyomi Flower	0	\N	\N	\N	Animation,Comedy,Drama
+tt8595178	tvEpisode	New Executive Order to Keep Families Together	New Executive Order to Keep Families Together	0	2018	\N	\N	News
+tt8595180	tvEpisode	Episode #2.10	Episode #2.10	0	1973	\N	30	Game-Show
+tt8595182	tvSeries	Netherworld: Choose Your Own ADventure	Netherworld: Choose Your Own ADventure	0	2017	\N	\N	Mystery
+tt8595186	tvSeries	Becoming Jiff	Becoming Jiff	0	2018	\N	\N	Comedy
+tt8595188	tvEpisode	Episode #2.111	Episode #2.111	0	2018	\N	\N	Comedy,News
+tt8595192	tvEpisode	How Trump Handles the Children on CNN	How Trump Handles the Children on CNN	0	2018	\N	\N	News
+tt8595194	tvEpisode	Episode dated 18 May 1954	Episode dated 18 May 1954	0	1954	\N	\N	\N
+tt8595200	movie	Love, Josie	Love, Josie	0	2018	\N	\N	Drama,Short
+tt8595208	tvSeries	The Bridge	The Bridge	0	\N	\N	\N	\N
+tt8595212	tvEpisode	Cleveland Browns vs. Chicago Bears	Cleveland Browns vs. Chicago Bears	0	1986	\N	\N	Sport
+tt8595214	short	Just Lie Here	Just Lie Here	0	2019	\N	\N	Short,Thriller
+tt8595220	tvEpisode	Episode #1.1	Episode #1.1	0	\N	\N	\N	\N
+tt8595222	tvEpisode	Episode #1.2	Episode #1.2	0	\N	\N	\N	\N
+tt8595224	tvEpisode	Episode #1.3	Episode #1.3	0	\N	\N	\N	\N
+tt8595226	tvEpisode	Episode #1.4	Episode #1.4	0	\N	\N	\N	\N
+tt8595228	tvEpisode	Episode #1.5	Episode #1.5	0	\N	\N	\N	\N
+tt8595230	tvEpisode	Episode #1.6	Episode #1.6	0	\N	\N	\N	\N
+tt8595232	tvEpisode	Episode #1.7	Episode #1.7	0	\N	\N	\N	\N
+tt8595234	tvEpisode	Episode #1.8	Episode #1.8	0	\N	\N	\N	\N
+tt8595236	tvEpisode	Episode #1.9	Episode #1.9	0	\N	\N	\N	\N
+tt8595238	tvEpisode	Episode #1.10	Episode #1.10	0	\N	\N	\N	\N
+tt8595240	tvSeries	The Lovers & The Liars	The Lovers & The Liars	0	\N	\N	\N	\N
+tt8595242	tvEpisode	Episode #1.1	Episode #1.1	0	\N	\N	\N	\N
+tt8595244	tvEpisode	Episode #1.2	Episode #1.2	0	\N	\N	\N	\N
+tt8595246	tvEpisode	Episode #1.3	Episode #1.3	0	\N	\N	\N	\N
+tt8595248	tvEpisode	Episode #1.4	Episode #1.4	0	\N	\N	\N	\N
+tt8595250	tvEpisode	Episode #1.5	Episode #1.5	0	\N	\N	\N	\N
+tt8595252	tvEpisode	Episode #1.6	Episode #1.6	0	\N	\N	\N	\N
+tt8595254	tvEpisode	Episode #1.7	Episode #1.7	0	\N	\N	\N	\N
+tt8595256	tvEpisode	Episode #1.8	Episode #1.8	0	\N	\N	\N	\N
+tt8595260	tvEpisode	Episode #1.9	Episode #1.9	0	\N	\N	\N	\N
+tt8595262	tvEpisode	Episode #1.10	Episode #1.10	0	\N	\N	\N	\N
+tt8595266	video	Peter Fonda and Other Liberals Want to Terrify the Kids of ICE Agents	Peter Fonda and Other Liberals Want to Terrify the Kids of ICE Agents	0	2018	\N	12	News,Short
+tt8595268	short	Vampire Hunter (Darkstalkers) Commercial	Vampire Hunter (Darkstalkers) Commercial	0	1994	\N	1	Short
+tt8595270	movie	Family Medicine	Family Medicine	0	2018	\N	\N	Comedy,Short
+tt8595272	tvEpisode	Episode #1.5	Episode #1.5	0	2018	\N	\N	Drama
+tt8595274	movie	Super Mario World 'A Bit More' Commercial	Super Mario World 'A Bit More' Commercial	0	1991	\N	\N	Short
+tt8595276	video	Thoughts on Creating a Space Force	Thoughts on Creating a Space Force	0	2018	\N	\N	News,Short
+tt8595284	tvSeries	War Photographer	War Photographer	0	\N	\N	\N	\N
