@@ -6,38 +6,27 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
 
 public class WebScrapperForMovies {
     public static void main(String[] args) throws IOException {
 
-        String movieid = "tt4154756";
-        String url = "https://m.imdb.com/title/" + movieid + "/fullcredits/cast";
-        Document doc = Jsoup.connect(url).get();
-        Elements contents = doc.getElementsByClass("media-body media-vertical-align");
-        Map<String, List<String>> map = new LinkedHashMap<>();
+        String movieId = "tt4154756";
+        String url = "https://m.imdb.com/title/" + movieId + "/fullcredits/cast";
+        Document doc = Jsoup.connect(url)
+                .header("Accept-Language", "en-US,en;q=0.9,el;q=0.8")
+                .userAgent("Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; " +
+                        "wv) AppleWebKit/537.36 (KHTML, like Gecko) " +
+                        "Version/4.0 Chrome/60.0.3112.107 Mobile Safari/537.36")
+                .get();
+        Elements contents = doc.getElementsByClass("btn-full subpage");
 
         for (Element content : contents) {
-            String name = content.child(0).text();
-            String character = content.child(1).text();
+            String nameId = content.attr("href");
+            String name = content.getElementsByTag("h4").text();
+            String character = content.getElementsByTag("p").text();
 
-            put(map, "name", name);
-            put(map, "character", character);
-
-            System.out.println("name: " + name + " | " + "character: " + character);
-        }
-    }
-
-    public static void put(Map<String, List<String>> map, String key, String value) {
-        if (map.get(key) == null) {
-            List<String> list = new ArrayList<>();
-            list.add(value);
-            map.put(key, list);
-        } else {
-            map.get(key).add(value);
+            System.out.println("nameId: " + nameId.replaceFirst("/.*/(.*)/-?.*$","$1") + " | "
+                    + "name: " + name + " | " + "character: " + character);
         }
     }
 }

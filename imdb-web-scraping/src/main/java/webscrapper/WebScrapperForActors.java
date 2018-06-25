@@ -6,40 +6,28 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
 
 public class WebScrapperForActors {
     public static void main(String[] args) throws IOException {
 
-        String actorid = "nm1785339";
-        String url = "https://m.imdb.com/name/" + actorid + "/filmotype/actor";
-        Document doc = Jsoup.connect(url).get();
-        Map<String, List<String>> map = new LinkedHashMap<>();
-        Elements contents = doc.getElementsByClass("media-body media-vertical-align");
+        String actorId = "nm1785339";
+        String url = "https://m.imdb.com/name/" + actorId + "/filmotype/actor";
+        Document doc = Jsoup.connect(url)
+                .header("Accept-Language", "en-US,en;q=0.9,el;q=0.8")
+                .userAgent("Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; " +
+                        "wv) AppleWebKit/537.36 (KHTML, like Gecko) " +
+                        "Version/4.0 Chrome/60.0.3112.107 Mobile Safari/537.36")
+                .get();
+        Elements contents = doc.getElementsByClass("btn-full subpage");
 
         for (Element content : contents) {
-            String title = content.child(0).text();
-            String typeAndReleaseYear = content.child(1).text();
-            String character = content.child(2).text();
+            String titleId = content.attr("href");
+            String title = content.getElementsByTag("span").text();
+            String typeAndReleaseYear = content.getElementsByClass("unbold").first().text();
+            String character = content.getElementsByTag("p").text();
 
-            put(map, "title", title);
-            put(map, "typeAndReleaseYear", typeAndReleaseYear);
-            put(map, "character", character);
-
-            System.out.println("title: " + title + " | " + "typeAndReleaseYear: " + typeAndReleaseYear + " | " + "character: " + character);
-        }
-    }
-
-    public static void put(Map<String, List<String>> map, String key, String value) {
-        if (map.get(key) == null) {
-            List<String> list = new ArrayList<>();
-            list.add(value);
-            map.put(key, list);
-        } else {
-            map.get(key).add(value);
+            System.out.println("titleUrl: " + titleId.replaceFirst("/.*/(.*)/-?.*$", "$1") + " | "
+                    + "" + title + " | " + "typeAndReleaseYear: " + typeAndReleaseYear + " | "+ "character: " + character);
         }
     }
 }
