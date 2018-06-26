@@ -12,11 +12,12 @@ public class WebScrapperForMovies {
 
         String movieId = "tt4154756";
         String url = "https://m.imdb.com/title/" + movieId + "/fullcredits/cast";
+        String userAgent = "Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; " +
+                "wv) AppleWebKit/537.36 (KHTML, like Gecko) " +
+                "Version/4.0 Chrome/60.0.3112.107 Mobile Safari/537.36";
         Document doc = Jsoup.connect(url)
                 .header("Accept-Language", "en-US,en;q=0.9,el;q=0.8")
-                .userAgent("Mozilla/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; " +
-                        "wv) AppleWebKit/537.36 (KHTML, like Gecko) " +
-                        "Version/4.0 Chrome/60.0.3112.107 Mobile Safari/537.36")
+                .userAgent(userAgent)
                 .get();
         Elements contents = doc.getElementsByClass("btn-full subpage");
 
